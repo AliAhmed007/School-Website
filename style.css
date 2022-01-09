@@ -1,0 +1,349 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #959ca2;
+  font-weight: bold;
+  cursor: pointer;
+  flex-wrap: no-wrap;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #959ca2;
+  font-size: 19px;
+  width: 30%;
+  height: 45px;
+  flex-wrap: no-wrap;
+}
+
+.staff {
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #959ca2;
+}
+
+.button1 {
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  border: 0px;
+  border-left: 1px solid #959ca2;
+}
+
+.btn_donate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 70px;
+  color: white;
+  border-left: 1px solid #959ca2;
+}
+.donate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  border-radius: 2px;
+  background-color: #d8b21c;
+  border: 2px solid #d8b21c;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+  height: 75px;
+  width: auto;
+}
+.button2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  width: 70px;
+  background-color: #ffffff;
+  border: solid #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  width: auto;
+  margin-left: auto;
+  gap: 5px;
+}
+
+.img1 {
+  background-image: url(images/school.jpg);
+  object-fit: cover;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  height: 582px;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  color: soil black;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 30%;
+  margin-right: auto;
+  background-color: white;
+  opacity: 0.8;
+  padding: 10px;
+  justify-content: start;
+  font-family: "Roboto", sans-serif;
+}
+
+.discover {
+  display: flex;
+  background-color: #d8b21c;
+}
+.programs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 0px;
+  margin-left: 10px;
+}
+.discover_ed {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.image123 {
+  display: flex;
+}
+.img-1_2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.bellicon {
+  display: flex;
+  flex-direction: row;
+  background-color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-around;
+  padding: 25px;
+}
+.calender {
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.icon123 {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+.card1 {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+
+.section1 {
+  display: flex;
+}
+.circle_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading123 {
+  font-family: "Roboto", sans-serif;
+}
+.Parker {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+}
+.Alen {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  gap: 5px;
+  padding: 6px;
+}
+
+.section2 {
+  width: 38%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 {
+  width: 30%;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.section3_part1 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.section3_part2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-left: 10px;
+}
+
+.hover_timmings:hover {
+  background-color: #fbfbfb;
+  color: #6c98e1;
+}
+
+.main_div {
+  display: flex;
+  background-color: #37383a;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+}
+.sec_div {
+  display: flex;
+  height: 150px;
+  font-family: "Roboto", sans-serif;
+  flex-direction: row;
+  padding: 10px;
+}
+.third_div {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  height: 150px;
+}
+.end_section {
+  display: flex;
+  justify-content: start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #efefef;
+}
+
+.end_section_part1 {
+  font-family: "Roboto", sans-serif;
+  width: 30%;
+}
+.get_btn {
+  width: 168px;
+}
+.Second_div {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 20%;
+}
+.Third_div {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 20%;
+}
+.Fourth_div {
+  background-color: #333333;
+  width: 35%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.adress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px;
+}
+.number {
+  flex-direction: column;
+  height: 155px;
+}
+.call {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.call1 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
